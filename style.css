@@ -1,0 +1,73 @@
+
+.cell{
+    display: block;
+    border: 2px solid; 
+    height: 100px;
+    width: 100px;
+    float: left;
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Permanent Marker', cursive;
+
+
+}
+
+.wrapper {
+
+     display: block;
+     height: 600px;
+     width: 350px;
+     float: left;
+     position: absolute;
+     left: 50%;
+     top: 50px;
+     
+}
+
+.row1 .cell  {
+    border-top: 0;
+
+}
+.row1 :first-child {
+    border-left: 0;
+}
+
+.row1 :last-child{
+    border-right: 0;
+}
+
+.row2 :first-child {
+    border-left: 0;
+}
+
+.row2 :last-child{
+    border-right: 0;
+}
+
+.row3 .cell  {
+    border-bottom: 0;
+
+}
+.row3 :first-child {
+    border-left: 0;
+}
+
+.row3 :last-child{
+    border-right: 0;
+}
+
+.endgame {
+    display: none;
+    width: 200px;
+    top: 120px;
+    background-color: cadetblue;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    padding-top: 50px; 
+    padding-bottom: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    font-size: 2em;
+}
